@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #560027;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DetailsController">
+   <children>
+      <Label fx:id="detailsWelcome" alignment="CENTER" layoutX="475.0" layoutY="14.0" prefHeight="20.0" prefWidth="211.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="14.0" layoutY="43.0" opacity="0.9" prefHeight="157.0" prefWidth="673.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="144.0" fitWidth="148.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/nn82.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="148.0" layoutY="14.0" opacity="0.9" text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="147.0" layoutY="48.0" opacity="0.9" text="Gender">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="153.0" layoutY="79.0" opacity="0.9" prefHeight="20.0" prefWidth="27.0" text="Age">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="113.0" opacity="0.9" text="Proffesion">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="detailsName" layoutX="202.0" layoutY="11.0" prefHeight="26.0" prefWidth="306.0" />
+            <Label fx:id="detailsGender" layoutX="202.0" layoutY="45.0" prefHeight="26.0" prefWidth="46.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="detailsAge" layoutX="202.0" layoutY="76.0" prefHeight="26.0" prefWidth="56.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="detailsProfession" layoutX="210.0" layoutY="110.0" prefHeight="26.0" prefWidth="178.0">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="143.0" layoutY="217.0" prefHeight="157.0" prefWidth="414.0" style="-fx-background-color: #ffffff;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <AnchorPane opacity="0.93" prefHeight="45.0" prefWidth="414.0" style="-fx-background-color: #b71c1c;" />
+            <Label alignment="CENTER" layoutX="154.0" layoutY="-3.0" prefHeight="28.0" prefWidth="107.0" text="About Me" textAlignment="CENTER" textFill="#eeeded">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="20.0" fitWidth="27.0" layoutX="56.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-instagram-50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="27.0" layoutX="56.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-github-24.png" />
+               </image>
+            </ImageView>
+            <Hyperlink fx:id="detailInsta" layoutX="94.0" layoutY="61.0" prefHeight="23.0" prefWidth="111.0" text="Charlygraphy23" />
+            <Hyperlink fx:id="DetailsGithub" layoutX="94.0" layoutY="92.0" prefHeight="23.0" prefWidth="143.0" text="Charlygraphy23" />
+            <JFXButton fx:id="detailsButtonContact" layoutX="273.0" layoutY="76.0" prefHeight="45.0" prefWidth="111.0" text="Contact Us" textFill="#3d54ee">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

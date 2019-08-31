@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ContuctUs">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="451.0">
+         <children>
+            <Label layoutX="103.0" layoutY="23.0" prefHeight="186.0" prefWidth="334.0" text="We'd love to hear you! Send us a Message" textAlignment="CENTER" textFill="#6d6fe4" wrapText="true">
+               <font>
+                  <Font name="System Italic" size="30.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect></Label>
+            <Label layoutX="139.0" layoutY="265.0" opacity="0.56" text="North America " wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="103.0" layoutY="298.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-phone-32.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="103.0" layoutY="261.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-taxi-location-24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="137.0" layoutY="299.0" opacity="0.59" prefHeight="26.0" prefWidth="176.0" text="Toll-Free:1-877-930-7483">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="103.0" layoutY="334.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-uk-news-24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="138.0" layoutY="334.0" opacity="0.59" prefHeight="26.0" prefWidth="176.0" text="International:1-604-637-0780 ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="209.0" opacity="0.76" prefHeight="40.0" prefWidth="200.0" text="Corporate &amp; Registered Office Address" textFill="#7f59ff" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="383.0" opacity="0.76" prefHeight="40.0" prefWidth="200.0" text="Customer Care Number:" textFill="#7f59ff" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="139.0" layoutY="422.0" opacity="0.56" prefHeight="40.0" prefWidth="271.0" text="Intex Technologies (I) Ltd.A 61, Okhla Industrial Area, Phase - II, New Delhi - 110020, India" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="103.0" layoutY="429.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-taxi-location-24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="137.0" layoutY="470.0" opacity="0.59" prefHeight="26.0" prefWidth="200.0" text="Toll-Free:+91 11 41610224/25/26">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="103.0" layoutY="469.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-phone-32.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="26.0" fitWidth="26.0" layoutX="103.0" layoutY="506.0" opacity="0.23" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icons8-uk-news-24.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="138.0" layoutY="506.0" opacity="0.59" prefHeight="26.0" prefWidth="200.0" text="International:+91 11 41610221/90 ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" prefHeight="600.0" prefWidth="39.0" style="-fx-background-color: #9fa8da;">
+         <children>
+            <Label layoutX="-14.0" layoutY="58.0" rotate="270.0" text="Contact Us" textAlignment="CENTER" textFill="#f6f3ff">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="hyperlink" layoutX="-18.0" layoutY="518.0" prefHeight="20.0" prefWidth="113.0" rotate="270.0" stylesheets="@../style.css" text="FaceBook" textAlignment="CENTER" visited="true" wrapText="true" />
+            <Hyperlink fx:id="insta" layoutX="-15.0" layoutY="374.0" prefHeight="23.0" prefWidth="110.0" rotate="270.0" stylesheets="@../style.css" text="Instagram" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="anchor" layoutX="451.0" prefHeight="600.0" prefWidth="451.0" styleClass="anchor" stylesheets="@../style.css">
+         <children>
+            <JFXTextField id="textName" fx:id="contactName" layoutX="39.0" layoutY="115.0" prefHeight="32.0" prefWidth="374.0" promptText="Name" styleClass="text-field" stylesheets="@../style.css">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="contactEmail" layoutX="39.0" layoutY="186.0" prefHeight="40.0" prefWidth="374.0" promptText="Email" styleClass="text-field" stylesheets="@../style.css" />
+            <JFXTextField fx:id="contactMobile" layoutX="39.0" layoutY="260.0" prefHeight="40.0" prefWidth="374.0" promptText="Mobile No" stylesheets="@../style.css" />
+            <JFXTextArea fx:id="contactMessage" layoutX="39.0" layoutY="329.0" prefHeight="185.0" prefWidth="385.0" promptText="Messaege" styleClass="text-field" stylesheets="@../style.css" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextArea>
+            <JFXButton layoutX="292.0" layoutY="538.0" prefHeight="40.0" prefWidth="132.0" style="-fx-background-color: #6f79a8;" text="Send" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></JFXButton>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
