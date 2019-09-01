@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000063;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000063;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.Controller">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="109.0" text="LOGIN" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
          <font>
@@ -37,17 +37,17 @@
       </JFXButton>
       <ImageView fitHeight="29.0" fitWidth="32.0" layoutX="104.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets/icons8-user-48.png" />
+            <Image url="@../assets/icons8-user-48.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="23.0" fitWidth="29.0" layoutX="107.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets/icons8-password-40.png" />
+            <Image url="@../assets/icons8-password-40.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="42.0" fitWidth="61.0" layoutX="286.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@assets/icons8-name-tag-48.png" />
+            <Image url="@../assets/icons8-name-tag-48.png" />
          </image>
       </ImageView>
    </children>

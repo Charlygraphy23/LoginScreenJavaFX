@@ -6,6 +6,7 @@ module LoginScreenJavaFX {
     requires java.desktop;
 
     opens sample;
+    opens sample.controller;
 
 
 }
