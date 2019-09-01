@@ -1,0 +1,12 @@
+.anchor{
+    -fx-background-image: url("assets/image.jpg");
+    -fx-background-position: center;
+
+}
+.text-field{
+    -fx-prompt-text-fill: white;
+    -fx-text-fill: white;
+}
+.hyperlink{
+    -fx-text-fill: white;
+}
